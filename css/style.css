@@ -161,15 +161,14 @@ nav a {
   margin: 0 auto 1rem;
   padding-bottom: 1rem;
   text-align: left; */
-}
 
 /* Blog Post Image */
-.blog-post img {
+/* .blog-post img {
   display: block;
   margin: 0 auto 1rem;
   max-width: 100%;
   height: auto;
-}
+} */
 
 /* Read More Button */
 .read-more {

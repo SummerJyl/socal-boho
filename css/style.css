@@ -297,6 +297,14 @@ nav a:hover {
   background-color: #755a3c;
 }
 
+/* Instagram Widget */
+.instagram-feed {
+  max-width: 540px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
 /* Pinterest Widget */
 .social-pinterest a[data-pin-do] {
   display: block;

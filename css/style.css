@@ -181,6 +181,8 @@ nav a:hover {
   background-color: #f2ede8;
 } */
 
+/* Featured */
+
 .featured-picks {
   padding: 2rem;
   background-color: #fdf7f3;
@@ -211,10 +213,15 @@ nav a:hover {
 
 .scroll-picks {
   display: flex;
-  gap: 1rem;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
   overflow-x: auto;
+  max-width: 900px;
+  margin: 0 auto;
   padding-bottom: 1rem;
   scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
 }
 
 .pick-card {

@@ -82,6 +82,50 @@ nav a {
   background-color: #f2ede8;
 }
 
+.featured-picks {
+  padding: 2rem;
+  background-color: #fdf7f3;
+  text-align: center;
+}
+
+.featured-picks h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #5a3d2b;
+  margin-bottom: 1.5rem;
+}
+
+.scroll-picks {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+}
+
+.pick-card {
+  min-width: 200px;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.pick-card img {
+  width: 100%;
+  border-radius: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.pick-card p {
+  font-family: 'Poppins', sans-serif;
+  color: #7c5a44;
+  font-size: 1rem;
+}
+
 .brands img {
   max-width: 100px;
   margin: 10px;

@@ -45,3 +45,35 @@ Welcome to the SoCal Boho lifestyle blog website project! This repository contai
 - Updated hero copy to:  
   `"Curated content, creator tips, and coastal vibes straight from Southern California."`
 - Included a CTA button linking to blog pag
+
+### Image & Logo Setup:
+Moved and fixed image paths for brand logos (Amazon, Pinterest, LTK).
+Created SVG icons for social media links (Instagram, TikTok, Amazon, LTK, Pinterest).
+Adjusted logo and icon sizes for consistency.
+
+### Header & Navigation:
+Added your logo image in the upper-left header to replace the text “SoCal Boho.”
+Ensured the navigation bar aligns correctly on the right.
+Applied flexbox styling on header for layout control.
+
+### Hero Section Styling:
+Styled .hero section with a background image and white text for strong visual impact.
+Reworded hero text to sound inviting and brand-appropriate.
+Added a call-to-action button linking to the blog.
+
+### Fonts & Typography:
+Confirmed use of fonts: Poppins (body), Playfair Display (logo, headings).
+Styled key text elements (logo, headings) with proper fonts, sizes, and colors.
+
+### Favicon Setup:
+Added favicon link in <head> referencing /assets/icons/favicon.png.
+Discussed caching issues and the importance of clearing browser cache after favicon updates.
+
+### GitHub Pages:
+Initialized Git repository locally.
+Pushed your site code to GitHub repo.
+Enabled GitHub Pages for live hosting of your SoCal Boho site.
+Planning Content:
+Created Notes folder with markdown files for content planning: About, Blog, Work With Me.
+Added starter templates for those pages.
+Discussed how to leverage your social media content on the site.

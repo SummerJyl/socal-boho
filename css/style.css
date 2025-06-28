@@ -32,10 +32,11 @@ a:hover {
 
 header {
   background-color: #f9f2ec;
-  padding: 20px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 60px; /* optional, to keep consistent height */
 }
 
 .logo {

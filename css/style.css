@@ -126,6 +126,11 @@ nav a {
   font-size: 1rem;
 }
 
+.pinterest-board {
+  margin-top: 2rem;
+  max-width: 420px; /* or fit to your container */
+}
+
 .brands img {
   max-width: 100px;
   margin: 10px;

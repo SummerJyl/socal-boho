@@ -1,0 +1,149 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffaf5;
+  color: #333;
+}
+
+header {
+  background-color: #f9f2ec;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8em;
+  color: #a76f57;
+}
+
+.logo img {
+  max-height: 180px;
+  width: auto;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #5a3d2b;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 80px 20px;
+  background: url('assets/images/boho-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(90, 61, 43, 0.5);
+  z-index: -1
+}
+
+.hero .cta {
+  display: inline-block;
+  margin-top: 20px;
+  background: #e9c9a5;
+  padding: 12px 25px;
+  color: #3f2c22;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.featured {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f2ede8;
+}
+
+.brands img {
+  max-width: 100px;
+  margin: 10px;
+}
+
+footer {
+  padding: 30px;
+  background-color: #dfcbb6;
+  text-align: center;
+  font-size: 0.9em;
+}
+.social-follow {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.social-follow h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #5a3d2b; /* Match your existing brown tone */
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem; /* creates consistent spacing */
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 8px;
+  text-decoration: none;
+  color: #5a3d2b;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons a img {
+  width: 32px;
+  height: 32px;
+  filter: grayscale(100%) brightness(0.6);
+}
+
+.social-icons a:hover img {
+  transform: scale(1.1);
+  filter: grayscale(0%) brightness(1);
+}
+
+/* .social-icons a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #5a3d2b; */
+}
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}

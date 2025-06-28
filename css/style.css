@@ -150,11 +150,19 @@ nav a:hover {
 /* Currently Loving */
 
 /* Featured Brands*/
-.featured {
+.featured-picks {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background-color: #fdf7f3;
+  text-align: center;
+}
+
+/* .featured {
   text-align: center;
   padding: 40px 20px;
   background-color: #f2ede8;
-}
+} */
 
 .featured-picks {
   padding: 2rem;
@@ -167,6 +175,8 @@ nav a:hover {
   font-size: 1.8rem;
   color: #5a3d2b;
   margin-bottom: 1.5rem;
+  letter-spacing: 0.03em;
+  line-height: 1.3;
 }
 
 .brands {

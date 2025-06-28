@@ -31,7 +31,7 @@ header {
   max-height: 180px;
   width: auto;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
 }
 
 nav a {
@@ -45,11 +45,11 @@ nav a {
 /* About Me */
 .about-me {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
-  margin: 2rem 0;
+  padding: 2rem;
   text-align: left;
+  flex-wrap: wrap;
 }
 
 .about-me img {
@@ -59,6 +59,12 @@ nav a {
 
 .about-text {
   flex: 1;
+}
+
+.profile-pic {
+  max-width: 200px;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 
 /* Hero */

@@ -66,8 +66,9 @@ More server resource heavy, usually requires paid hosting unless you use WordPre
 Less direct control over code compared to GitHub + VSC.
 
 Recommendation:
-Since you like coding in VSC and want control, GitHub Pages is a solid choice for your blog and portfolio site — especially if you keep it mostly static with some JS enhancements. For blogging, you can use tools like:
+Since you like coding in VSC and want control, GitHub Pages is a solid choice for your blog and portfolio site — especially if you keep it mostly static with some JS enhancements. 
 
+For blogging, you can use tools like:
 Static Site Generators (Jekyll, Hugo, Eleventy) — generate blog posts from Markdown files, deploy on GitHub Pages.
 
 Headless CMS options (Netlify CMS, Contentful, Sanity) — manage content visually, but still build static sites with VSC.

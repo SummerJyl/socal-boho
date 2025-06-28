@@ -52,6 +52,23 @@ nav a {
   font-weight: 500;
 }
 
+.nav-btn {
+  background: none;
+  border: none;
+  color: #5a3d2b;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-btn:hover {
+  color: #9c7b5a;
+}
+
 nav a:hover {
   color: #9c7b5a;
 }

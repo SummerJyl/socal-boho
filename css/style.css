@@ -182,6 +182,11 @@ footer {
   filter: grayscale(0%) brightness(1);
 }
 
+.social-pinterest {
+  margin-top: 3rem;
+  max-width: 420px;
+}
+
 .instagram-feed {
   background-color: #f9f2ec;
   padding: 2rem 1rem;

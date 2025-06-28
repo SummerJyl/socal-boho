@@ -77,3 +77,9 @@ Planning Content:
 Created Notes folder with markdown files for content planning: About, Blog, Work With Me.
 Added starter templates for those pages.
 Discussed how to leverage your social media content on the site.
+
+## Home Page: Highlight your Instagram or “Currently Loving” picks to welcome visitors with your vibe
+
+## Blog Page: Maybe showcase your Pinterest board or Instagram feed to inspire readers with your style and content
+
+## Work With Me Page: Add your LinkedIn, Instagram, or even TikTok widget to give potential collaborators a glimpse of your reach and personality

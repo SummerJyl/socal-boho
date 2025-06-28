@@ -133,11 +133,18 @@ footer {
   filter: grayscale(0%) brightness(1);
 }
 
-/* .social-icons a {
-  margin: 0 8px;
-  text-decoration: none;
-  color: #5a3d2b; */
+.instagram-feed {
+  background-color: #f9f2ec;
+  padding: 2rem 1rem;
+  text-align: center;
 }
+.instagram-feed h3 {
+  font-family: 'Playfair Display', serif;
+  color: #5a3d2b;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 768px) {
   nav {
     flex-direction: column;

@@ -142,7 +142,16 @@ nav a {
 }
 
 /* Individual Blog Post */
-.blog-post {
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 8px; /* Optional: soft edges */
+  object-fit: cover;   /* Good if image is inside a fixed box */
+}
+
+/* .blog-post {
   max-width: 100%;
   height: auto;
   display: block;
@@ -150,7 +159,7 @@ nav a {
   object-fit: cover;
   margin: 0 auto 1rem;
   padding-bottom: 1rem;
-  text-align: left;
+  text-align: left; */
 }
 
 /* Blog Post Image */

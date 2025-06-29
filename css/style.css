@@ -31,6 +31,10 @@ a:hover {
 }
 
 header {
+  background-image: url('assets/images/header-bg.jpeg'); /* or .jpeg/.png */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: #f9f2ec;
   padding: 10px 20px;
   display: flex;

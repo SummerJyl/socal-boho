@@ -445,11 +445,15 @@ footer .social-icons a:hover {
   margin-top: 1rem;
 }
 
-
 .social-icons a img {
   width: 32px;
   height: 32px;
   filter: grayscale(100%) brightness(0.6);
+}
+
+.social-icons img.ltki {
+  width: 40px;
+  height: 40px;
 }
 
 .social-icons a:hover img {

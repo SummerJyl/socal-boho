@@ -420,11 +420,11 @@ footer .social-icons a img {
   vertical-align: middle;  /* keeps icons aligned with text if any */
 }
 
-/* .social-icons a img[alt="LTK"] {
+.social-icons a img[alt="LTK"] {
   width: 40px;  /* match the Amazon icon size
   height: auto; /* maintain aspect ratio
   vertical-align: middle; 
-} */
+}
 
 footer .social-icons a:hover {
   transform: scale(1.1);

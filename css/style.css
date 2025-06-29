@@ -174,8 +174,6 @@ nav a:hover {
   border-radius: 30px;
 }
 
-/* Currently Loving */
-
 /* Featured Brands
 .featured-picks {
   max-width: 900px;
@@ -191,7 +189,7 @@ nav a:hover {
   background-color: #f2ede8;
 } */
 
-/* Featured */
+/* Featured - Currently Loving */
 
 .featured-picks {
   padding: 0.5rem;
@@ -392,17 +390,34 @@ footer p {
 }
 
 /* Style for social icons container */
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem; /* creates consistent spacing */
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  margin-top: 1rem; /* remove default margin */
+}
+
 footer .social-icons a {
   margin: 0 8px;
   color: #5a3d2b;
   text-decoration: none;
   font-weight: 500;
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition: transform 0.25s ease, color 0.25s ease;
   display: inline-block; /* allows for hover effects */
 }
 
+footer .social-icons a img {
+  width: 32px;
+  height: 32px;
+  filter: grayscale(100%) brightness(0.6);
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
 footer .social-icons a:hover {
-  color: #9c7b5a;
+  transform: scale(1.1);
+  filter: grayscale(0%) brightness(1);
 }
 
 /* Socail Media */

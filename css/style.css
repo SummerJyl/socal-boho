@@ -31,7 +31,6 @@ a:hover {
 }
 
 header {
-  background-image: url('assets/images/header-bg.jpeg'); /* or .jpeg/.png */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,6 +129,7 @@ nav a:hover {
   position: relative;
   text-align: center;
   padding: 80px 20px;
+  /* background-image: url('assets/images/header-bg.jpg'); or .jpeg/.png */
   background: url('assets/images/boho-bg.jpg') no-repeat center center/cover;
   color: #fff;
   z-index: 1;
@@ -151,12 +151,18 @@ nav a:hover {
 .hero::before {
   content: "";
   position: absolute;
+  inset: 0; 
+  background-color: rgba(90, 61, 43, 0.5);
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(90, 61, 43, 0.5);
-  z-index: -1
+  z-index: -0;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
 }
 
 .hero .cta {

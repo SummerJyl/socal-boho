@@ -1,60 +1,67 @@
-📝 SoCal Boho Site — Progress Notes
-✅ Major Accomplishments:
-Pinterest site verification:
-✅ Meta tag added to <head> and successfully verified.
+# 📓 SoCal Boho Site — Progress Notes
 
-Blog Template Created:
-✅ Structure built with article, blog post image, text, and “Read More” link.
+## ✅ Accomplishments
 
-Pinterest Board Widget Embedded:
-✅ Pinterest section added and styled. Adjusted to center-align.
+### 🔧 Core Features Implemented
+- **Pinterest Site Verification**
+  - Added `<meta name="p:domain_verify">` to `<head>` of `index.html`
+  - Verified successfully on Pinterest
 
-Contact Form Modal:
-✅ Modal added and now working on all pages (/index, /about, /blog).
-⚠️ Fixed issue where it only worked on /index.
+- **Blog Page Template**
+  - Added `<article>` with image, title, meta text, excerpt, and "Read More"
+  - Integrated Pinterest Board widget, styled for center alignment
 
-About Me Page:
-✅ About section with profile image and bio added.
-✅ CSS updated to use flexbox for image + text layout.
-✅ Responsive fixes for smaller screens.
+- **Contact Modal**
+  - Working across `/index`, `/about`, and `/blog`
+  - Fixed broken modal on non-home pages by including required JS & modal HTML
+  - Triggered with `id="contactBtn"` link
 
-Removed "Featured On" Section:
-✅ Removed brand logos section to declutter layout.
+- **About Me Section**
+  - Profile image + text displayed side-by-side with Flexbox
+  - Responsive layout tweaks for smaller screens
+  - Replaced placeholder image with personal photo
 
-Instagram/TikTok Embed:
-✅ Tested LightWidget (⚠️ HTTPS issue in free version).
-✅ Replaced with Elfsight widget — working version.
+- **Social Embeds**
+  - Tested LightWidget (failed HTTPS)
+  - Replaced with **Elfsight** Instagram widget → Success
 
-"Currently Loving" Section:
-✅ Horizontal scrollable product cards styled using Flexbox.
-✅ Cards centered and text styled.
-✅ Swapped placeholder images with personal content.
+- **Currently Loving Section**
+  - Scrollable horizontal card layout (`.featured-picks`, `.pick-card`)
+  - Swapped out dummy images for personal picks
+  - Centered `.scroll-picks` and improved spacing
 
-Font Improvements:
-✅ Changed from 'Poppins' to 'Quicksand' to better complement the logo.
+- **Typography & Aesthetic**
+  - Updated font to `'Quicksand'` for harmony with logo
+  - Reduced nav and header spacing to allow full content + footer visibility without scroll
 
-Hero Section Background Image:
-✅ Added header-bg.jpg as hero background.
-✅ Fixed major issue with image not rendering due to incorrect relative path.
+- Added `header-bg.jpg` as hero background
+  - Fixed major rendering issue due to incorrect file path
 
-🛠️ Common Errors & Fixes
-Issue	Fix
-Pinterest meta tag not showing	Committed correctly and confirmed in browser View Source
-Blog posts left-aligned	Added .blog-post styling and container alignment
-Image too large	Applied max-height and width: 100% with object-fit: cover
-Contact form only worked on /index	Ensured shared JS and HTML modal code on all pages
-Navbar overlapping content	Used Flexbox in header and min-height adjustments
-style.css not loading on /about	File path was incorrect → Fixed with correct relative path
-Background image not loading	Fixed relative path in CSS: url('../assets/images/header-bg.jpg')
-Footer stacking vertically	Used Flexbox to place text and icons side by side
+## 🐞 Common Errors & Resolutions
 
-🧠 Lessons / Best Practices
-Always verify file paths in relation to the CSS file, not the HTML.
+| Issue | Resolution |
+|-------|------------|
+| Meta tag not visible | Verified via browser View Source after Git push |
+| Pinterest widget misaligned | Wrapped in container + centered with Flexbox |
+| Blog post image too large | Added `max-height: 400px; object-fit: cover;` |
+| Contact form not appearing on all pages | Copied modal HTML + JS script to each relevant file |
+| Navbar overlapping text | Adjusted header layout and spacing |
+| `style.css` not loading on subpages | Fixed relative file paths |
+| Background image not rendering | Corrected path relative to `style.css` file |
+| Footer stacking | Styled with Flexbox to be horizontal on desktop |
+| Font too modern | Switched from `'Poppins'` to `'Quicksand'` for softer style |
 
-Use F12 > Network tab to check for 404 errors and what’s failing to load.
+## 💡 Tips & Lessons
 
-Centralize reusable elements like nav and modals using includes/JS where possible.
+- Always confirm file paths relative to **the CSS file**, not the HTML
+- Use **DevTools > Network** tab to catch `404` errors
+- Modular HTML (nav, modals) could be reused via JS includes
+- Git commits with clear messages = easier debugging
+- Use **hard refresh (Cmd+Shift+R)** on GitHub Pages updates
 
-Add commits frequently and write descriptive messages to trace changes.
+---
 
-Use hard refresh (Cmd + Shift + R) to clear GitHub Pages cache.
+**Next Up:**
+- Swap out remaining placeholder images with real content
+- Consider breaking out reusable elements (header, footer) into includes
+- Fine-tune spacing & image sizing for mobile/tablet views

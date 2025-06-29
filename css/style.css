@@ -238,8 +238,11 @@ nav a:hover {
 
 .pick-card img {
   width: 100%;
-  border-radius: 0.90rem;
+  height: auto;
+  border-radius: 0.75rem;
   margin-bottom: 0.5rem;
+  object-fit: cover;
+  max-height: 180px;
 }
 
 .pick-card p {

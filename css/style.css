@@ -387,7 +387,7 @@ nav a:hover {
   flex: 1;
   min-width: 250px;
   background-color: #fdf7f3;
-  margin-top: 3rem; /* or adjust as needed */
+  margin-top: 2.5rem; /* or adjust as needed */
   padding: 1.5rem;
   border-radius: 1rem;
   font-family: 'Poppins', sans-serif;

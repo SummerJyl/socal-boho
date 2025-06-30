@@ -412,6 +412,9 @@ footer .social-icons a {
 }
 
 footer .social-icons a img {
+  background-color: transparent; /* ensures no background color */
+  border-radius: 50%; /* optional, for rounded icons */
+  padding: 4px; /* adds a bit of space around the icon */
   width: 32px;      /* fix width */
   height: auto;     /* auto height keeps aspect ratio */
   object-fit: contain;
@@ -420,10 +423,8 @@ footer .social-icons a img {
   vertical-align: middle;  /* keeps icons aligned with text if any */
 }
 
-.social-icons a img[alt="LTK"] {
-  width: 40px;  /* match the Amazon icon size
-  height: auto; /* maintain aspect ratio
-  vertical-align: middle; 
+footer .social-icons a.ltk-icon img {
+  filter: invert(100%) brightness(150%);
 }
 
 footer .social-icons a:hover {
@@ -431,7 +432,7 @@ footer .social-icons a:hover {
   filter: grayscale(0%) brightness(1);
 }
 
-/* Socail Media */
+/* Social Media */
 .social-follow {
   text-align: center;
   padding: 2rem 0;

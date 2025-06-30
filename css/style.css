@@ -387,6 +387,7 @@ nav a:hover {
   flex: 1;
   min-width: 250px;
   background-color: #fdf7f3;
+  margin-top: 3rem; /* or adjust as needed */
   padding: 1.5rem;
   border-radius: 1rem;
   font-family: 'Poppins', sans-serif;
@@ -508,13 +509,29 @@ footer .social-icons a img {
   vertical-align: middle;  /* keeps icons aligned with text if any */
 }
 
+footer .social-icons a.ltk-icon {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+}
+
 footer .social-icons a.ltk-icon img {
-  filter: invert(100%) brightness(150%);
+  filter: none;
+  background-color: transparent; /* ensures no background color */
+  border-radius: 0; /* no border radius for LTK icon */
+  display: inline-block; /* allows for hover effects */
+  width: 38px; /* specific size for LTK icon */
+  height: 38px; /* specific size for LTK icon */
 }
 
 footer .social-icons a:hover {
   transform: scale(1.1);
   filter: grayscale(0%) brightness(1);
+}
+
+/* Hover state: invert colors and brighten */
+footer .social-icons a.ltk-icon:hover img {
+  filter: invert(100%) brightness(150%);
 }
 
 /* Social Media */
@@ -540,9 +557,11 @@ footer .social-icons a:hover {
 }
 
 .social-icons a img {
+  border: none; /* remove any border */
+  box
   width: auto;
   height: 38px;
-  filter: grayscale(100%) brightness(0.6);
+  filter: none;
 }
 
 .social-icons img.ltki {
